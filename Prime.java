@@ -23,7 +23,7 @@ public class Prime{
             a[i] = i;   // a = [2,3,4,5]
         }
 
-        for(int p = 2; p < Math.floor(Math.sqrt(n)); p++){
+        for(int p = 2; p <= Math.floor(Math.sqrt(n)); p++){
             if(a[p] != 0){ //p is prime
                 int j = p * p;
                 while(j <= n){
