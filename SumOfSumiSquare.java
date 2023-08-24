@@ -87,7 +87,7 @@ public class SumOfSumiSquare{
     public static double sumOfSumIsquareReuse(long n){
         double sumOfSum = 0;
         double sumIsquare = 0;
-        for (int j = 1; j <= n ; j++ ){
+        for (double j = 1; j <= n ; j++ ){
             sumIsquare += j * j;
             sumOfSum += sumIsquare;
         } 
